@@ -3,7 +3,6 @@ ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 1500px;
     overflow: hidden;
     background-color: #404449;
     display:flex;
