@@ -30,6 +30,11 @@ p {
     font-size: 15px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Navigation Bar */
 
 /* Remove margins and padding from the list, and add a black background color */
