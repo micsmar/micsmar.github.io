@@ -5,10 +5,10 @@ html, body {
     overflow-x: hidden;
     text-align: center;
     font-size: 100%;
+    min-height: 100%;
 }
 
 body {
-    background: #fff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvitica Neue", Helvetica, sans-serif;
     font-weight: 400;
     text-rendering: optimizeLegibility;
@@ -16,18 +16,6 @@ body {
 
 h1, h2, p {
     font-weight: 400;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-p {
-    font-size: 15px;
 }
 
 img {
@@ -43,7 +31,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3d4247;
+    background-color: #272829;
     display: flex;
     justify-content: center;
 }
@@ -56,10 +44,10 @@ ul.topnav li a {
     display: inline-block;
     color: #fff;
     text-align: center;
-    padding: 10px 28px;
+    padding: 12px 28px;
     text-decoration: none;
     transition: 0.5s;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -69,32 +57,74 @@ ul.topnav li a:hover {background-color: #4f555c;}
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
 
+#page {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("per1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+}
+
+#homepage {
+    padding-bottom: 115px;
+}
+
+/* Title */
+#title {
+    padding-top: 300px;
+    padding-bottom: 0;
+}
+
+#title h1 {
+    color: #000;
+    font-size: 80px;
+    font-weight: 500;
+    margin: 0;
+}
+
 /* About */
+#about {
+    padding-bottom: 100px;
+}
+
+#about p {
+    color: #000;
+    font-size: 30px;
+    margin: 0;
+}
 
 /* Footer */
-footer {
+#footer {
     background: #272829;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 115px;
 }
 
-footer h2 {
+#footer h2 {
     color: #fff;
-    padding-top: 30px;
-    padding-bottom: 10px
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
 }
 
-footer .copyright {
+#footer .copyright {
     color: #fff;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    font-size: 10px;
 }
 
 /* Socials */
 .fa {
     padding: 15px;
-    font-size: 25px;
     color: #626262;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     text-align: center;
     text-decoration: none;
     margin: 0px 5px;
