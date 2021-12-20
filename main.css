@@ -47,7 +47,7 @@ ul.topnav li a {
     padding: 12px 28px;
     text-decoration: none;
     transition: 0.5s;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -57,7 +57,7 @@ ul.topnav li a:hover {background-color: #4f555c;}
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
 
-#page {
+#pageone {
     position: relative;
     min-height: 100vh;
     background-image: url("per1.jpg");
@@ -72,12 +72,12 @@ ul.topnav li.icon {display: none;}
 }
 
 /* Title */
-#title {
-    padding-top: 300px;
+#hometitle {
+    padding-top: 350px;
     padding-bottom: 0;
 }
 
-#title h1 {
+#hometitle h1 {
     color: #000;
     font-size: 80px;
     font-weight: 500;
@@ -85,11 +85,11 @@ ul.topnav li.icon {display: none;}
 }
 
 /* About */
-#about {
-    padding-bottom: 100px;
+#homeabout {
+    padding-bottom: 50px;
 }
 
-#about p {
+#homeabout p {
     color: #000;
     font-size: 30px;
     margin: 0;
@@ -102,7 +102,8 @@ ul.topnav li.icon {display: none;}
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 115px;
+    height: 75px;
+    padding-top: 10px;
 }
 
 #footer h2 {
@@ -116,7 +117,7 @@ ul.topnav li.icon {display: none;}
     color: #fff;
     padding-top: 0px;
     padding-bottom: 0px; 
-    font-size: 10px;
+    font-size: 8px;
 }
 
 /* Socials */
@@ -132,6 +133,6 @@ ul.topnav li.icon {display: none;}
 }
 
 .fa:hover {
-    background-color: #8d8d8d;
+    background-color: #5a5a5a;
     color: #fff;
 }
