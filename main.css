@@ -60,7 +60,7 @@ ul.topnav li.icon {display: none;}
 #pageone {
     position: relative;
     min-height: 100vh;
-    background-image: url("per1.jpg");
+    background-image: url("images/per1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
