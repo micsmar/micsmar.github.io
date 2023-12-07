@@ -71,7 +71,7 @@ ul.topnav li.icon {
 #page-home {
   position: relative;
   min-height: 100vh;
-  background-image: url("images/per1.jpg");
+  /* background-image: url("images/per1.jpg"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
