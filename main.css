@@ -71,7 +71,7 @@ ul.topnav li.icon {
 #page-home {
   position: relative;
   min-height: 100vh;
-  /* background-image: url("images/per1.jpg"); */
+  background-image: url("images/33.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -92,12 +92,12 @@ ul.topnav li.icon {
 /* Homepage Title */
 
 #home-title {
-  margin-top: 350px;
+  margin-top: 250px;
   padding-bottom: 0;
 }
 
 .home-header {
-  color: #000;
+  color: #fff;
   font-size: 80px;
   font-weight: 500;
   margin: 0;
@@ -118,7 +118,7 @@ ul.topnav li.icon {
 }
 
 #home-about p {
-  color: #000;
+  color: #fff;
   font-size: 30px;
   margin: 0;
 }
