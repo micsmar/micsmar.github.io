@@ -28,7 +28,7 @@ p {
 
 /* Navigation Bar */
 
-/* kRemove margins and padding from the list, and add a black background color */
+/* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -37,6 +37,9 @@ ul.topnav {
   background-color: #272829;
   display: flex;
   justify-content: center;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
 }
 
 /* Float the list items side by side */
@@ -103,24 +106,20 @@ ul.topnav li.icon {
   margin: 0;
 }
 
+/* Homepage About */
+
+#home-about p {
+  color: #fff;
+  font-size: 2vw;
+  margin: 0;
+}
+
 /* Page Title */
 
 .page-header {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
-}
-
-/* Homepage About */
-
-#home-about {
-  margin-bottom: 50px;
-}
-
-#home-about p {
-  color: #fff;
-  font-size: 30px;
-  margin: 0;
 }
 
 /* Content */
